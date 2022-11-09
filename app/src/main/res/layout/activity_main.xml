@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:text="GEOMETRIA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.462"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="152dp"
+        android:layout_height="138dp"
+        app:srcCompat="@drawable/rectangulo"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="97dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rectangulo"
+        tools:layout_editor_absoluteX="196dp"
+        tools:layout_editor_absoluteY="141dp" />
+
+    <EditText
+        android:id="@+id/txtbase"
+        android:layout_width="418dp"
+        android:layout_height="57dp"
+        android:ems="10"
+        android:hint="Ingrese la base"
+        android:inputType="phone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.339"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="562dp" />
+
+    <EditText
+        android:id="@+id/txtaltura"
+        android:layout_width="426dp"
+        android:layout_height="58dp"
+        android:ems="10"
+        android:hint="Ingrese la altura"
+        android:inputType="phone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.459"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="637dp" />
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="396dp"
+        android:layout_height="75dp"
+        android:text="Calcular"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.351"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="712dp" />
+
+    <EditText
+        android:id="@+id/txtResultado"
+        android:layout_width="341dp"
+        android:layout_height="68dp"
+        android:layout_marginEnd="116dp"
+        android:ems="10"
+        android:hint="Area: Aquí va el resultado cm2"
+        android:inputType="numberPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="807dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/arearec"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="314dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
